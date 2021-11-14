@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <title>Mi Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de Martín Nahuel Vázquez</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(147, 205, 212)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="portfolio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quiensoy">Quién soy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quehago">Qué hago</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Mis proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conocimientos">Conocimientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="portada">
+        <h1>EN MI MÁQUINA SÍ FUNCIONA</h1>
+      </section>
+
+      <section id="quiensoy">
+        <h2>Quién soy</h2>
+        <img id="fotoperfil" src="mifoto.jpeg" alt="foto de perfil">
+        <article>
+          <p>Estudiante de Ingeniería en Sistemas de Información, orgullosamente uteniano. <br>
+            Soy responsable y trabajo bien en equipo, estoy convencido del slogan “La unión hace la fuerza”.</p>
+        </article>
+
+      </section>
+
+      <section id="quehago">
+        <h2>Qué hago</h2>
+        <article>
+          <p>Actualmente soy Tester Manual de software y me desempeño realizando la planificación e implementación de casos de prueba con su respectiva documentación en los distintos proyectos que se me van asignando.</p>
+        </article>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article>
+          <img id="brillototal" src="brillo-total.jpeg" alt="Imagen proyecto brillo total">
+          
+          <p>Brillo Total es un sistema de gestión de turnos para un lavadero de vehículos, desarrollado con Python y Django.</p>
+        </article>
+        <article>
+          <img id="reciplas" src="reciplas.jpeg" alt="Imagen proyecto Reciplas">
+          <p>Proyecto universitario para la cátedra Diseño de Sistemas.<br>
+            Consulta, listado, alta, baja y modificación de productos hechos con material reciclable.
+          </p>
+        </article>
+      </section>
+
+      <section id="conocimientos">
+        <h2>Conocimientos</h2>
+        <picture>
+          <img title="HTML5" src="html-5.png" alt="icono de html5">
+          <img title="CSS3" src="css.png" alt="icono de css3">
+          <img title="Bootstrap" src="bootstrap.png" alt="icono de bootstrap">
+          <img title="Python" src="python.png" alt="icono de python">
+          <img title="Java" src="java.png" alt="icono de java">
+        </picture>
+      </section>
+      
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+          <picture>
+          <a href="https://github.com/NahuelVazquez/Java---Informatorio-2021" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiZJREFUSEvllt01BUEQhOtGgAgQASJABkSACBABIkAEiIAMEAEiQASIgPPt2d7T2+Zndz3cB/1yz92dmerqrqnemeYUsznhagrwlqQFSett0s+SPiU9jiExFHhF0omkHUmLGQDA7yRdSiKZYtSAATmXtF87KLy/lnTcViK5tQRMKa9cSUdi603Sbo59DhjQ+0JZhyZB+bdT4ClgyguoieddarLfHIj20q5ba3/ZuxHLngKmP3sOhIwfJCEw3pEY4uFAguckCTu0wHP+P7kzbqJOIjCHvAZmqw5kIOlm2XdYDOtO7RH4QtJh2GCMx4BGxuztsY7AlGnZIdBfK+MYYGuHP4tWLNkhHjiV5UHb1zGgtpZ+cx19dNXzwFghavbR68tIdFh/hD3ca9yt59VHrUv5tTVnq+USBXYm6XQI8BRhWTKpG5IETpX6Lz1moNyGknTn+VKmMsQ4YD0lohFxRqeZ2EMkz6z1MYV1StFf3vtLBsIdtnuIIJizJFYKlIwBNQIKUTQQX26kb8PdqkDpSaC5Ei7wAOY2OslF0TLZRLZ8bRD0l2S8EaS8O3VnfQIky3XtIjcWYcZYM3HBCJVi8pGtHZbSB+8Yk1Si16acQcASEEqMOhFYLUgyzmwEBeivb7CSMwEOOxvobKaklDoVkTFMUXfyw69miQDRG+s5gLk93h7pKVrJ3oIasDGDPQnwS69TQUsAYqbb10m2PUOBa/0d/f7/Af8A+YtyH9j17mQAAAAASUVORK5CYII="/></a>
+
+
+          <a href="https://www.linkedin.com/in/martin-nahuel-vazquez/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAARBJREFUSEvtl+0RwUAQhp90QAc6QAWoQAmoQAnoQAeohA7oAB3ogHlncmbnZmQS1iVm7J8kl7t7su9+zCWjJstq4tIocAvoOitxBS52z9jjDnB2hobt2sAtPMTgIbD/EngEHBoPngFbQCHQdfCBGqU9VkIIGGwKbFKAxbAJsQbmqcBKBkncA+SxSu1dKy31u4BX6yqBNdnGeALschU0HpSQGqd8ovJCYRlHX1AJbOt8CSyAFaB7mSBqCs/GYGAKk60CV3DgKPYxPK4Cd3DIdoH7pifHXdAdfDfy2jBo2L5zBSu5jnWAYzmTefwH/77Unv26UjklA9d22JOH6rtqDJ6mo23h8dYTVrhXo/4kknj9AOO5bx9DceH0AAAAAElFTkSuQmCC"/></a>
+
+          <a href="https://www.instagram.com/vazquezmartinnahuel/?hl=es" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAeNJREFUSEvNlrsuRUEUhr/zBHgCl4YOlUZBoiKChJ5egopQIJFIVCQeQE/iEhoNolFSigJPgDeQP1mT7DNmZl9sOSY5yd5nr5lv//+svWY1aNFotIjLvwd3AZ0F3XkH3vJiU4rbgU1gHtB1mfEJHAHbgK5/jBh4BDitAPQBgs4At/6DEFjqXmuAOpZsH/SVh8D7wFIZX73YJ7vvz/x/ACxn40Jg2dNWESzogM19BBxcqrtTYNn8kQO9s8Rxmat8mDaIYLJVIwvWfUfWbl+xFrlJgBcMGgrZsq9ALyTXnHIXO5pNsjJgB+0D5oBhW/EeOAaeAQcPvVglsOyVG73AITDmrXwNLAIvVjxCxaYSeAVQtm8AO5GtWAd2E6orgd2kK2A8Ar4ApizRVHz88SvwJTARAZ8bVBleG9hZvWZ2htirwF7dVrsC0GN7PemRpVaVSXH61ZZc4jjVqkCzwJDBH4ATA6bKbaU9dgKlSnXXH+4IbarHXlASXKRkykopU0lUvCqUzmw1C6mRLJmaGNujnHWTj9WVNL3YXxyLoTcodCzKPtlYtMfKc0JqtR1NLVCs9VHgWQ3wLysqhVofp0DKddqoEpVVL6CaPc0v1eyFPhf/fI1Z7IpIcgv+fUOfl0Cln7dM8Tdp5m0fVyF0JgAAAABJRU5ErkJggg=="/></a>
+        </picture>
+      </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
